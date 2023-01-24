@@ -1,4 +1,4 @@
-webhook = 'https://discord.com/api/webhooks/1034379682281439254/tjZsYj6Bk4uXUtHkMX51-qBHIpDFXRtgZ-c6te8__c4KsvCLw09GZL2-vBfw65NTEf8L' -- set your discord webhook here
+webhook = '' -- set your discord webhook here
 
 RegisterCommand("charinfo", function(source, args, rawCommand)	
 	if source ~= 0 then

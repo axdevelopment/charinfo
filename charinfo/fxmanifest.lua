@@ -8,7 +8,9 @@ lua54 'yes'
 shared_script '@es_extended/imports.lua'
 client_script 'client.lua'
 server_scripts {
-'@mysql-async/lib/MySQL.lua',
+'@oxmysql/lib/MySQL.lua',
 'serverconfig.lua',
 'server.lua'
 }
+
+dependency 'oxmysql'

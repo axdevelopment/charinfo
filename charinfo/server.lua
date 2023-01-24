@@ -67,12 +67,12 @@ RegisterCommand("charinfo", function(source, args, rawCommand)
 					}
 				}
 				PerformHttpRequest(webhook, function(err, text, headers) end, 'POST', json.encode({username = "CHARINFO",  avatar_url = Config.AvatarURL, embeds = ingamecommand}), { ['Content-Type'] = 'application/json' })
-				print("^3Charinfo for Player ID "..args[1].." was successfully sent to your discord webhook")
+				print("^2Charinfo for Player ID "..args[1].." was successfully sent to your discord webhook^0")
 	      	else
-				print("^1No player online with ID "..args[1])
+				print("^1No player online with ID ^0"..args[1])
 	      	end
 	    else
-			print("^1Wrong arguments passed! For console use charinfo ID")
+			print("^1Wrong arguments passed! For console use charinfo ID^0")
 	    end
 	end
 end, false)

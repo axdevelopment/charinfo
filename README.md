@@ -19,6 +19,9 @@ either if it's via ingame chat/f8 console or via serverconsole, you will always 
 
 feel free to improve, convert to qb, or whatever - simply open a PR on github
 
+## installation
+simply add the folder into your resources, add 'start charinfo' to your server.cfg and don't forget to set your discord webhook inside server.lua on line 1
+
 ## dependencies
 - esx
 - mysql-async

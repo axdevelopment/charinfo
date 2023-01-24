@@ -1,5 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
+author 'ardo/axdev_'
 name 'charinfo'
 description 'get player information with a single command!'
 lua54 'yes'

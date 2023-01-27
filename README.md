@@ -24,4 +24,4 @@ simply add the folder into your resources, add 'start charinfo' to your server.c
 
 ## dependencies
 - esx
-- mysql-async
+- oxmysql
